@@ -34,7 +34,7 @@ const Home = ({pageInfo, experience, projects, skills, socials}: Props) => {
         <title>CJs Portfolio</title>
       </Head>
 
-      <Header socials={socials} />
+      <Header />
 
       <section id="hero" className='snap-start'>
       <Hero />
@@ -45,15 +45,15 @@ const Home = ({pageInfo, experience, projects, skills, socials}: Props) => {
       </section>
       
       <section id='experience' className='snap-center'>
-        <WorkExperience experience={experience} />
+        <WorkExperience />
       </section>
 
       <section id='skills' className='snap-start'>
-        <Skills skills={skills} />
+        <Skills />
       </section>
 
       <section id='projects' className='snap-start'>
-        <Projects projects={projects} />
+        <Projects />
       </section>
 
       <section id='contact' className='snap-start'>
